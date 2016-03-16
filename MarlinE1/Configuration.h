@@ -186,7 +186,12 @@
   #define PID_dT ((OVERSAMPLENR * 8.0)/(F_CPU / 64.0 / 256.0)) //sampling period of the temperature routine
 
 // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
-// Ultimaker
+// Uniqbot old HOTEND
+//    #define  DEFAULT_Kp 31.0
+//    #define  DEFAULT_Ki 0.73
+//    #define  DEFAULT_Kd 330.11
+
+// Uniqbot new HOTEND
     #define  DEFAULT_Kp 31.0
     #define  DEFAULT_Ki 0.73
     #define  DEFAULT_Kd 330.11
