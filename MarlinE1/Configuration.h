@@ -191,10 +191,16 @@
 //    #define  DEFAULT_Ki 0.73
 //    #define  DEFAULT_Kd 330.11
 
+
 // Uniqbot new HOTEND
-    #define  DEFAULT_Kp 31.0
-    #define  DEFAULT_Ki 0.73
-    #define  DEFAULT_Kd 330.11
+//  Kp: 29.50
+//  Ki: 2.80
+//  Kd: 77.80
+
+// Uniqbot CURRENT
+    #define  DEFAULT_Kp 29.50
+    #define  DEFAULT_Ki 2.80
+    #define  DEFAULT_Kd 77.80
 
 // MakerGear
 //    #define  DEFAULT_Kp 7.0
