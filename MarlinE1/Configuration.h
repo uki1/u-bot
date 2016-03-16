@@ -451,7 +451,13 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 
 // default settings
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.0955,80.0955,3268,100}  //default for UNIQBOT OLD {80.0955,80.0955,3200/1.25,100} default for UNIQBOT NEW {80.0955,80.0955,3200/(1.25*3.238),100} 
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.0955,80.0955,3200/8,100}   
+
+//UNIQBOT shpilka {80.0955,80.0955,3200/1.25,100}
+//UNIQBOT vint kak na razryvnoy {80.0955,80.0955,3200/(1.25*3.238),100}
+//UNIQBOT NEW yzkiy vint {80.0955,80.0955,3268,100}
+//UNIQBOT NEW shirokiy vint {80.0955,80.0955,3200/8,100}
+
 #define DEFAULT_MAX_FEEDRATE          {400, 400, 2, 25}    // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {7000,7000,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 
