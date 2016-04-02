@@ -451,7 +451,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 
 // default settings
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.0955,80.0955,3200/8,100}   
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.0955,80.0955,3268,100}   
 
 //UNIQBOT shpilka {80.0955,80.0955,3200/1.25,100}
 //UNIQBOT vint kak na razryvnoy {80.0955,80.0955,3200/(1.25*3.238),100}
